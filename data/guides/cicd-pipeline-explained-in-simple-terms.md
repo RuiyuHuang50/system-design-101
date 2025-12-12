@@ -41,4 +41,9 @@ A typical CI/CD pipeline has several connected stages:
 
 *   Further testing may be done on staging before release
 
-*   CD system deploys approved changes to production
+*   CD system deploys approved changes to productio
+
+## Note:
+* The circle on the second map means the Test Environment or Test Machine where the newly build code is executed and verified.
+* Test Environment: This is the isolated environment (often a clean server, container, or virtual machine) set up to mimic the production environment as closely as possible.
+* Purpose: The tests are run here to ensure the compiled code works well with other components before it is packaged and deployed.
